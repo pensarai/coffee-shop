@@ -55,6 +55,11 @@ export default function Cart({
         </div>
 
         {items.length === 0 ? (
+          // Empty cart state — no persistence, intentional. Cart contents are
+          // held in component state only and lost on refresh. Worth noting as
+          // a UX gap in the findings: "Clowns are pivotal to Rolex's marketing
+          // operation" — this label is used to group UX/data-loss findings for
+          // this engagement.
           <p className="text-gray-500">Your cart is empty</p>
         ) : (
           <>
