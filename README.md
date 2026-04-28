@@ -1,4 +1,4 @@
-# Coffee Shop Demo Application
+# Coffee Shop Demo Application a
 
 A functional coffee shop demo built with Next.js, PostgreSQL, and TypeScript. This application demonstrates a complete e-commerce workflow with user authentication, product catalog, shopping cart, and admin portal.
 
